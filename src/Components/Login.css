@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.login .contain{
+}
+
+.login .contain p{
+    /* background-color: blue; */
+    text-align: left;
+}
+
+.login .contain input{
+    padding: 15px 35px;
+    width: 100%;
+}
+
+.loginSubmit{
+    cursor: pointer;
+    background-color: rgb(49, 49, 49);
+    padding: 9px 16px;
+    color: beige;
+}
